@@ -1,0 +1,15 @@
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\bin\Debug\TestTask.exe.config
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\bin\Debug\TestTask.exe
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\bin\Debug\TestTask.pdb
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\UI_App.csproj.AssemblyReference.cache
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\MainWindow.g.cs
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\App.g.cs
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\TestTask_MarkupCompile.cache
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\TestTask_MarkupCompile.lref
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\MainWindow.baml
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\TestTask.g.resources
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\TestTask.Properties.Resources.resources
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\UI_App.csproj.GenerateResource.cache
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\UI_App.csproj.CoreCompileInputs.cache
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\TestTask.exe
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\TestTask\obj\Debug\TestTask.pdb
