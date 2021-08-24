@@ -13,3 +13,4 @@ C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.pdb
 C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.Migrations.SettingMigration.resources
 C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.Migrations.SecondMigrations.resources
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.Migrations.ChangeRentalItemPiecestable.resources

@@ -11,8 +11,7 @@ namespace DAL.Entities
     {
         [Key]
         public int Id { get; set; }
-        public int? RentalItemsId { get; set; }
-        public RentalItems RentalItems { get; set; }
+        public ICollection<RentalItems> RentalItems { get; set; }
         [MaxLength(50)]
         public string Barcode { get; set; }
         [MaxLength(50)]
