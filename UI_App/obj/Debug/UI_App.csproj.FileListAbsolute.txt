@@ -33,3 +33,7 @@ C:\Users\vadim_oyanwuw\source\repos\LightingStore\UI_App\obj\Debug\UI_App.csproj
 C:\Users\vadim_oyanwuw\source\repos\LightingStore\UI_App\obj\Debug\UI_App.csproj.CopyComplete
 C:\Users\vadim_oyanwuw\source\repos\LightingStore\UI_App\obj\Debug\UI_App.exe
 C:\Users\vadim_oyanwuw\source\repos\LightingStore\UI_App\obj\Debug\UI_App.pdb
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\UI_App\obj\Debug\Pages\OrdersPage.g.cs
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\UI_App\obj\Debug\Pages\OrdersPage.baml
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\UI_App\obj\Debug\Pages\OrderLines.g.cs
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\UI_App\obj\Debug\Pages\OrderLines.baml

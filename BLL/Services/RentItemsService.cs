@@ -45,7 +45,8 @@ namespace BLL.Services
                 {
                     Id = item.Id,
                     ECode = item.ECode,
-                    Descriprion = item.Descriprion
+                    Descriprion = item.Descriprion,
+                    RentalItemPieces = item.RentalItemPieces
                 };
             }
         }

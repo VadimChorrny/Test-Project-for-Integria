@@ -55,17 +55,9 @@
     <Compile Include="Entities\Orders.cs" />
     <Compile Include="Entities\RentalItemPieces.cs" />
     <Compile Include="Entities\RentalItems.cs" />
-    <Compile Include="Migrations\202108210505208_SettingMigration.cs" />
-    <Compile Include="Migrations\202108210505208_SettingMigration.Designer.cs">
-      <DependentUpon>202108210505208_SettingMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202108231012168_SecondMigrations.cs" />
-    <Compile Include="Migrations\202108231012168_SecondMigrations.Designer.cs">
-      <DependentUpon>202108231012168_SecondMigrations.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202108240537255_Change RentalItemPieces table.cs" />
-    <Compile Include="Migrations\202108240537255_Change RentalItemPieces table.Designer.cs">
-      <DependentUpon>202108240537255_Change RentalItemPieces table.cs</DependentUpon>
+    <Compile Include="Migrations\202108241455164_fgfdffdggggdgdggg.cs" />
+    <Compile Include="Migrations\202108241455164_fgfdffdggggdgdggg.Designer.cs">
+      <DependentUpon>202108241455164_fgfdffdggggdgdggg.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,16 +69,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202108210505208_SettingMigration.resx">
-      <DependentUpon>202108210505208_SettingMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202108231012168_SecondMigrations.resx">
-      <DependentUpon>202108231012168_SecondMigrations.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202108240537255_Change RentalItemPieces table.resx">
-      <DependentUpon>202108240537255_Change RentalItemPieces table.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202108241455164_fgfdffdggggdgdggg.resx">
+      <DependentUpon>202108241455164_fgfdffdggggdgdggg.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

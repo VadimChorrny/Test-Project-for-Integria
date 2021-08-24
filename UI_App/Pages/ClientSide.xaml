@@ -5,9 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:UI_App.Pages"
       mc:Ignorable="d" 
-      Height="500" Width="950"
+      Height="450" Width="800"
       Title="Client Side" Background="White">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="412*"/>
+            <RowDefinition Height="37*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <!--Left side-->
             <ColumnDefinition Width="1*" />
@@ -16,20 +20,53 @@
         </Grid.ColumnDefinitions>
         <!--On the left side, show a Grid with the columns “ECode” and “Description”
         This should load records from the RentalItems table and display all results.-->
-        <Grid Grid.Column="0">
+        <Grid Grid.Column="1" Margin="0,0,0,-0.4" Grid.RowSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="1*" />
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
-            <DataGrid x:Name="dgRentalItems" Grid.Row="0" />
+            <StackPanel>
+                <Button FontSize="20" Content="Remove Items" Name="btnRemoveItems" Click="btnRemoveItems_Click" />
+                <DataGrid x:Name="dgRentalItems" Grid.Row="0" />
+            </StackPanel>
             <!--Add New Rental Item-->
             <WrapPanel Grid.Row="1" >
-                <TextBlock Text="Enter E-Code" FontSize="30" Margin="15" />
-                <TextBox x:Name="tbECode" FontSize="30" Width="200" Margin="15" MaxLength="50"/>
-                <TextBlock Text="Enter Description" FontSize="30" Margin="15" />
+                <TextBlock Text="Enter E-Code" FontSize="30"  />
+                <TextBox x:Name="tbECode" FontSize="30" Width="200"  MaxLength="50"/>
+                <TextBlock Text="Enter Desc    " FontSize="30" />
                 <TextBox x:Name="tbDescription" FontSize="30" Width="200" MaxLength="100" />
                 <Button Width="300" Margin="30" Click="btnNewRentalItems_Click" Name="btnNewRentalItems" Content="New Rental Items" />
             </WrapPanel>
         </Grid>
+        <!--Also on the left side, provide a way for the user to add a new Rental Item,
+        where they can enter both an ECode and a Description, 
+        and save it to the database.-->
+        <Grid Grid.Column="0" Margin="0,0,0,-0.4" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+            <StackPanel>
+                <Button Content="Remove Pieces" FontSize="20" Name="btnRemovePieces" Click="btnRemovePieces_Click" />
+                <DataGrid x:Name="dgRentalItemsPieces" Grid.Row="0"/>
+            </StackPanel>
+            <WrapPanel Grid.Row="1">
+                <TextBlock Text="Enter BarCode" FontSize="30"  />
+                <TextBox x:Name="tbBarCode" FontSize="30" Width="200"  MaxLength="50"/>
+                <TextBlock Text="Enter number" FontSize="30"  />
+                <TextBox x:Name="tbSerialNumber" FontSize="30" Width="200" MaxLength="100" />
+                <TextBlock Text="Enter E-Code" FontSize="30" />
+                <TextBox x:Name="tbECodeRentalPieces" FontSize="30" Width="200" MaxLength="50"/>
+                <TextBlock Text="Enter Desc    " FontSize="30" />
+                <TextBox x:Name="tbDescriptionRentalPieces" FontSize="30" Width="200" MaxLength="100" />
+                <Button Width="300" Margin="30" Click="btnNewRentalItemPieces_Click" Name="btnNewRentalItemPieces" Content="New Rental Items" />
+            </WrapPanel>
+        </Grid>
+        <StatusBar Grid.Row="1" Grid.ColumnSpan="2" Background="Wheat">
+            <TextBlock Text="Customer name:" FontSize="20" />
+            <TextBlock x:Name="txtCustomerName" FontSize="20" Margin="200 0 0 0" />
+            <TextBlock Text="Current time:" FontSize="20" />
+            <TextBlock x:Name="txtCurrentTime" FontSize="20" Margin="30 0 0 0" />
+        </StatusBar>
     </Grid>
 </Page>

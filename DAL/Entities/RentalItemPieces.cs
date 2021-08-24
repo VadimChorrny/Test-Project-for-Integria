@@ -11,10 +11,14 @@ namespace DAL.Entities
     {
         [Key]
         public int Id { get; set; }
-        public ICollection<RentalItems> RentalItems { get; set; }
         [MaxLength(50)]
         public string Barcode { get; set; }
         [MaxLength(50)]
         public string SerialNumber { get; set; }
+        public ICollection<RentalItems> RentalItems { get; set; }
+        public RentalItemPieces()
+        {
+            RentalItems = new List<RentalItems>();
+        }
     }
 }

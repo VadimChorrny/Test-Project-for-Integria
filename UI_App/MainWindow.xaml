@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UI_App"
         mc:Ignorable="d"
-        Title="My App" Height="500" Width="950" Background="Wheat" >
+        Title="My App" Height="500" Width="1350" Background="Wheat" >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1*" />
@@ -14,7 +14,7 @@
         <DockPanel Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" >
             <StackPanel>
                 <Button Width="200" Content="Client" Name="btnClient" Click="btnClient_Click" />
-                <Button Width="200" Content="Orders" Margin="0 20 0 0" Name="btnOrders"  />
+                <Button Width="200" Content="Orders" Margin="0 20 0 0" Name="btnOrders" Click="btnOrders_Click"  />
             </StackPanel>
         </DockPanel>
         <Frame x:Name="Main" NavigationUIVisibility="Hidden" Grid.Column="1" Background="White" />

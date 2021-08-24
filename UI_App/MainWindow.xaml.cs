@@ -21,14 +21,28 @@ namespace UI_App
     /// </summary>
     public partial class MainWindow : Window
     {
+        OrdersPage ordersPage = new OrdersPage();
+        ClientSide clientSide = new ClientSide();
+        OrderLines orderLines = new OrderLines();
         public MainWindow()
         {
             InitializeComponent();
+            LoadSignInPage();
+        }
+
+        private void LoadSignInPage()
+        {
+            Main.Content = ordersPage;
         }
 
         private void btnClient_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new ClientSide();
+            Main.Content = clientSide;
+        }
+
+        private void btnOrders_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = orderLines;
         }
     }
 }
