@@ -13,7 +13,9 @@ namespace DAL.Entities
         public int Id { get; set; }
         [MaxLength(50)]
         public string ECode { get; set; }
-        [MaxLength(50)]
+        [MaxLength(100)]
         public string Descriprion { get; set; }
+        public int? RentalItemPiecesId { get; set; }
+        public RentalItemPieces RentalItemPieces { get; set; }
     }
 }

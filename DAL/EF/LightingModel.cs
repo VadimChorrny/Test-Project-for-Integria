@@ -7,10 +7,7 @@ namespace DAL.EF
 {
     public class LightingModel : DbContext
     {
-        public LightingModel()
-            : base("name=LightingModel")
-        {
-        }
+        public LightingModel() : base("name=LightingModel"){}
         public virtual DbSet<RentalItems> RentalItems { get; set; }
         public virtual DbSet<RentalItemPieces> RentalItemPieces { get; set; }
         public virtual DbSet<Orders> Orders { get; set; }

@@ -55,20 +55,22 @@
     <Compile Include="Entities\Orders.cs" />
     <Compile Include="Entities\RentalItemPieces.cs" />
     <Compile Include="Entities\RentalItems.cs" />
-    <Compile Include="Migrations\202108210505208_SettingMigration.cs" />
-    <Compile Include="Migrations\202108210505208_SettingMigration.Designer.cs">
-      <DependentUpon>202108210505208_SettingMigration.cs</DependentUpon>
+    <Compile Include="Migrations\202108241455164_fgfdffdggggdgdggg.cs" />
+    <Compile Include="Migrations\202108241455164_fgfdffdggggdgdggg.Designer.cs">
+      <DependentUpon>202108241455164_fgfdffdggggdgdggg.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\GenericRepository.cs" />
+    <Compile Include="Repositories\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202108210505208_SettingMigration.resx">
-      <DependentUpon>202108210505208_SettingMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202108241455164_fgfdffdggggdgdggg.resx">
+      <DependentUpon>202108241455164_fgfdffdggggdgdggg.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

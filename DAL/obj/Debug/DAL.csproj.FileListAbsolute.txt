@@ -10,5 +10,5 @@ C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.csproj.CoreC
 C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.dll
 C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.pdb
-C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.Migrations.SettingMigration.resources
+C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.Migrations.fgfdffdggggdgdggg.resources
 C:\Users\vadim_oyanwuw\source\repos\LightingStore\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
